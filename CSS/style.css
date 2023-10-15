@@ -44,29 +44,32 @@ ul li :hover {
     position: absolute;
     width: 27%;
     height: 12%;
+    padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
     padding-top: 20px;
+    margin-left: 5px;
+    background-color: #fff;
+    border-radius: 20px;
 }
 .navbar {
-    padding-right: 8%;
     background-color: #fff;
-    border-radius: 5%;
-}
-/* .column {
-    position: relative;
-    align-items: center;
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+    margin-right: 10%;
+    padding-bottom: 8%;
+    
+
 }
 
-.row {
-    align-items: ;
-    content: "";
-    display: table;
-    clear: both;
+.row{
+    height: 120%;
+    width: 130%;
 }
- */
- .column {
-    align-content: first baseline;
+ 
+  .image-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12%;
+    padding-left: 7%;
+    padding-right: 7%;
+    
  }
